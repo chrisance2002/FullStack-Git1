@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class maximum
  {
-    public static void main(String args[])
+    public static void main(String args[], int j)
     {
         int a[]=new int[5];
         Scanner s1 = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class maximum
         System.out.println();
         int min = a[0];
         System.out.println("the minimum value is");
-        for(int i=0;i<=a.length-1; i++)
+        for(var i=0;i<=a.length-1; i++)
         {
             if ( a[i]<min)
                 min=a[i];
